@@ -1,0 +1,12 @@
+alias l='ls'
+alias ll='ls -l'
+alias la='ls -a'
+alias vi='vim'
+if[ "$(uname)" == 'Darwin']; then
+	# `brew install git` した前提で下４行は設定されている
+	source /usr/local/etc/bash_completion.d/git-prompt.sh
+	source /usr/local/etc/bash_completion.d/git-completion.bash
+	GIT_PS1_SHOWDIRTYSTATE=true
+	export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n\$ '
+fi
+
