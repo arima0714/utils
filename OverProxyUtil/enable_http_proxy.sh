@@ -1,5 +1,4 @@
 PROXY_PATH="http://proxy.cc.uec.ac.jp:8080/"
-# PROXY_PATH="socks://socks.cc.uec.ac.jp:1080"
 export HTTP_PROXY=$PROXY_PATH
 export HTTPS_PROXY=$PROXY_PATH
 export FTP_PROXY=$PROXY_PATH
