@@ -6,6 +6,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 # https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi <- インストールする
 # 手動インストールが必要な手順
 # https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe
+# 再起動する
 wsl --set-default-version 2
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
