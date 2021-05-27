@@ -17,3 +17,5 @@ scoop bucket add extras
 scoop install vscode
 scoop install powertoys
 scoop install windows-terminal
+scoop bucket add Sysinternals 'https://github.com/Ash258/Scoop-Sysinternals.git'
+scoop install Ctrl2Cap
