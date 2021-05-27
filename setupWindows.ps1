@@ -16,3 +16,4 @@ scoop install git
 scoop bucket add extras
 scoop install vscode
 scoop install powertoys
+scoop install windows-terminal
