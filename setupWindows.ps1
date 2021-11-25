@@ -20,3 +20,20 @@ scoop install windows-terminal
 scoop install slack
 scoop bucket add Sysinternals 'https://github.com/Ash258/Scoop-Sysinternals.git'
 scoop install Ctrl2Cap
+
+# powertoys
+# winget install --id "XP89DCGQ3K6VLD"
+# ubuntu
+# winget install --id "9NBLGGH4MSV6"
+# vscode
+# winget install vscode
+# docker
+# winget install --id "Docker.DockerDesktop"
+# jetbrains toolbox
+# winget install JetBrains.Toolbox
+# git
+# winget install --id "Git.Git"
+# steam
+# winget install --id "Valve.Steam"
+
+
